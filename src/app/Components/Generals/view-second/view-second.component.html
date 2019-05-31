@@ -1,0 +1,21 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>Nombre</th>
+            <th>usuario</th>
+            <th>telefono</th>
+            <th>direccion</th>
+            
+        </tr>
+    </thead>
+    <tbody *ngFor="let item of datos">
+        <tr>
+            <th scope="row">{{item.id}}</th>
+            <th scope="row">{{item.nombre}}</th>
+            <th scope="row">{{item.usuario}}</th>
+            <th scope="row">{{item.telefono}}</th>
+            <th scope="row">{{item.direccion}}</th>
+        </tr>
+    </tbody>
+</table>
